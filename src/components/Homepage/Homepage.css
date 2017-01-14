@@ -1,0 +1,147 @@
+.foodMe:link {
+    color: black;
+    text-decoration: none
+}
+
+/*visited link */
+.foodMe:visited {
+    color: black;
+    text-decoration: none
+}
+
+/*mouse over link */
+.foodMe:hover {
+    color: white;
+    background-color: black;
+    border: solid 0.15em white;
+    text-decoration: none
+}
+
+.header {
+    background-image: url('https://static.pexels.com/photos/27599/pexels-photo-27599.jpg');
+    background-size: cover;
+    background-position: 80% 80%;
+    padding: 14.375em 0;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.foodMeLogin {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  padding-bottom: 4.688em;
+  justify-content: center;
+}
+
+.foodMe {
+  color: black;
+  font-size: 2.5em;
+  letter-spacing: 0.10em;
+  background-color: white;
+  border: solid 0.15em black;
+  box-shadow: 0.07em 0.07em 0 0;
+  display: flex;
+  padding: 0.07em;
+}
+
+.loginButton {
+  position: relative;
+  bottom: 0;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background-color: white;
+  color: black;
+  border-style: none;
+  font-weight: bold;
+  letter-spacing: 0.188em;
+  border-radius: 0;
+}
+
+.loginButton:hover {
+  background-color: black;
+  text-decoration: none;
+}
+
+.loginButton:focus {
+  background-color: black;
+  text-decoration: none;
+}
+
+.loginButton:visited {
+  background-color: black;
+  text-decoration: none;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page {
+  background-color: #ffefe0;
+  width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 12.5em;
+    background-color: black;
+    color: white;
+}
+
+.footerContacts {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social-icon {
+    background-color: white;
+    color: white;
+    width: 2.1875em;
+    height: 2.1875em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-direction: row;
+    margin: 0 2em;
+}
+
+.footer p {
+    padding: 1.250em;
+    margin: 0.625em;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    margin: 0;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
